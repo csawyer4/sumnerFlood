@@ -1,0 +1,102 @@
+html {
+  background: #e0ebeb;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: #466d6d;
+  text-align: center;
+  text-size: 4em;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: #639c9c;
+  text-align: center;
+  text-size: 3em;
+}
+
+h3 {
+  font-family: sans-serif;
+  color: #507c7c;
+  text-align: center;
+  text-size: 2em;
+}
+
+p {
+  font-family: serif;
+  color: #666666;
+  text-align: center;
+}
+.small {
+  font-famly: serif;
+  color: #666666;
+  text-align: left;
+  text-size: 1em;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.columnL {
+  float: left;
+  width: 50%;
+}
+
+.columnR {
+  float: right;
+  width: 50%;
+}
+
+.row:after {
+  content:"";
+  display: block;
+  clear: both;
+}
+
+img {
+  border-style: solid;
+  border-color: #639c9c;
+}
+
+.images {
+  padding-left: 175px;
+}
+
+.CLFR {
+  float: left;
+  width: 35%;
+}
+
+.CRCH {
+  float: right;
+  width: 65%;
+}
+
+.row:after {
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.imagesf {
+  padding-left: 20px;
+  padding-bottom: 0px;
+}
+
+.csmall {
+  font-famly: serif;
+  color: #666666;
+  text-align: left;
+  text-size: 1em;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+  font-family: monospace;
+  font-size: 0.75em;
+  color: #155151;
+  text-align: center;
+}

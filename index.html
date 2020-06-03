@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <title>Sumner Flood Risk</title>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js'></script>
+  <link rel="stylesheet" href="styles.css"/>
+  </head>
+
+    <body>
+      <div>
+    <h1>Flood Risk in Sumner, Washington</h1>
+      <h2>Population and Housing</h2>
+
+      <p>The flood hazard in Sumner is mainly focused along the White River that runs through the
+      middle of the city. The flood hazard is mainly located in the northern section of the city with smaller
+      flood and ponding hazards along the southwest edge of the city. When looking at population density,
+      the more people there are the more vulnerable the area is. With most of the population in the southern
+      section of Sumner, the south section is vulnerable to flooding (Figure 1). Housing units can be damaged during
+      flooding and this makes them vulnerable. Housing unit vulnerability in Sumner is focused in the south
+      section of the city, similar to population (Figure 2). Both population and housing units are low in the northern
+      section of the city, and therefore less vulnerable.</p>
+    </div>
+
+    <div class="row">
+    <div class="columnL">
+      <h3>Popuation Flood Risk</h3>
+      <div class="images">
+      <a href="Sawyer_Lab2_Report.pdf" target="_blank"><img src="PopFR.png" alt="Population density with flood risk map." width=400px; height= 450px;/></a>
+    </div>
+      <p class="small"><strong>Figure 1:</strong> Most of the population in Sumner is in south section of the city while the flood risk is more concentrated in the north, except for a small portion in the southwest of the city. </p>
+    </div>
+
+    <div class="columnR">
+      <h3>Housing Flood Risk</h3>
+      <div class="images">
+      <a href="Sawyer_Lab2_Report.pdf" target="_blank"><img src="HouseFR.png" alt="Housing unit density with flood risk map." width=400px; height= 450px;/></a>
+    </div>
+      <p class="small"><strong>Figure 2:</strong> Most of the houses in Sumner are located in the southern section of the city, which coincides with the dense population in Figure 1.</p>
+    </div>
+</div>
+
+      <p>The flood risk in Sumner is where the flood hazards and city vulnerabilities overlap. In the south
+section of Sumner, along SR-410, there is a flood risk (Figure 3). This area is considered zone AE by FEMA, which
+means it is either a floodway or there is a 1% chance every year that this zone could be flooded.
+Population density here is between 3 and 4 thousand people per square mile. There are also between
+1,500 and 2,000 housing units in this part of Sumner. Additionally, part of SR-410 is within this flood risk
+area and could mean the difference between families getting to safety or staying in a life threatening area.</p>
+<p>Another risk here is that the wastewater treatment plant is within the AH flood zone (Figure 3). This means there
+can be ponding, and this facility is very close to the river and AE zones. The flood risk at this facility
+would make the flooding situation even worse with untreated water flooding the city. Although there is
+a lot of risk along the southern edge of the city, there are schools and public healthcare facilities that are
+not too far away from those in need and with a very minimal chance of flooding, only 0.2% chance every
+year (Figure 3). Finally, the north part of the city has a very minimal flood risk, as the flood zones and vulnerable
+communities do not coincide.</p>
+
+
+    <h2>How Much of Sumner is Really at Risk?</h2>
+
+    <p>
+
+  <div class="row">
+  <div class="CLFR">
+    <h3>Sumner Flood Zones</h3>
+    <div class="imagesf">
+    <img src="ExtraMap.png" alt="Flood zones in Sumner." width=400px; height= 450px;/>
+  </div>
+    <p class="small"><strong>Figure 3:</strong> The flood Zones in Sumner seem to be close to the river, leaving a majority of Sumner with a very minimal chance of flooding. Schools, hospitals, and wastewater treatment plants are also shown here, mainly in areas with minimal chance of flooding.</p>
+</div>
+
+  <div class="CRCH">
+    <h3>Percentage of Flood Zones</h3>
+      <canvas id="floodChart"></canvas>
+        <script src='script.js'></script>
+
+    <p class="csmall"><strong>Chart 1:</strong>The majority of Sumner is made up of Flood Zone X - 500+yr flood. This means that there is a very minimal chance or risk of flooding in 72.1% of land in Sumner.</p>
+  </div>
+  </div>
+
+<p>For the full report, including the legends, of the Flood Risk in Sumner, Washington <a href="Sawyer_Lab2_Report.pdf">click here</a> or on Figure 1 or 2.</p>
+
+    <footer>
+  <ul>Data Reference:<br>Pierce County. Cities in Pierce County. 4/6/2020. Pierce County Open GeoSpatial Data Portal.<br>FEMA. Special Flood Hazard Area. 5/4/2020. FEMA’s National Flood Hazard Layer (NFHL) Viewer.<br>Pierce County. 2010 Census Block Groups. 7/16/2019. Pierce County GeoSpatial Data Portal.
+</ul>
+    Created By: Cassidy Sawyer  Contact: csawyer4@uw.edu  Created Using: ArcMap 10.7.1, HTML5, CSS, JavaScript, GitHub, Chart.js  Date Created: 6/3/2020  Projected Coordinate System: NAD 1983 HARN StatePlane Washington South FIPS 4602 Feet
+
+  </footer>
+    </body>
+
+</html>
